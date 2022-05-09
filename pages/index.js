@@ -1,15 +1,19 @@
 import Layout from "../components/Layout";
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <Layout >
-      Bienvenido
+      <Link href="/deepweb">
+      <label>Bienvenido</label>
+      </Link>
+      
       <div className="container">
-        <span >¡H</span>
-        <span >e</span>
-        <span >l</span>
-        <span >l</span>
-        <span >o!</span>
+        <span >La </span>
+        <span >M</span>
+        <span >a</span>
+        <span >li</span>
+        <span >CIA</span>
       </div>
     </Layout>
   )
